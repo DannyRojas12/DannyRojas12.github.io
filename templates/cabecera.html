@@ -2,7 +2,7 @@
 session_start();
 
       if(!isset($_SESSION['usuario'])){
-          header('Location:../index.php');
+          header('Location:../index.hmtl');
 }
 
 ?>
@@ -28,9 +28,9 @@ session_start();
       <div class="nav navbar-nav">
           <a class="nav-item nav-link active" href="index.php" aria-current="page">Inicio 
             <span class="visually-hidden">(current)</span></a>
-          <a class="nav-item nav-link" href="vista_alumnos.php">Alumnos</a>
-          <a class="nav-item nav-link" href="vista_cursos.php">Cursos</a>
-          <a class="nav-item nav-link" href="cerrar.php">Cerrar sesión</a>
+          <a class="nav-item nav-link" href="vista_alumnos.html">Alumnos</a>
+          <a class="nav-item nav-link" href="vista_cursos.html">Cursos</a>
+          <a class="nav-item nav-link" href="cerrar.html">Cerrar sesión</a>
       </div>
   </nav>
 
